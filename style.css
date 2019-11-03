@@ -1,3 +1,119 @@
-p {
-color: green;
+/*----------border-box-reset---------------------------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*----------custom-styles---------------------------------*/
+html {
+    background: #222;
+}
+body {
+    background-color: #d3d3d3;
+    margin:0 5vw;
+    padding: 0 3em;
+    border-left: 5px solid rgb(24, 24, 24);
+    border-right: 5px solid rgb(24, 24, 24);
+    font-family: 'Karla', sans-serif;
+    font-size: medium;
+}
+
+header{
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+}
+
+header p{
+    margin: 0;
+    font-size: 0.75rem;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0 0 .5rem 0;
+}
+
+h2 {
+    border-bottom:2px solid rgb(24, 24, 24);
+}
+
+h3, .daterange, ul{
+    margin: 0;
+}
+
+h4 {
+    margin: .5em 0 0 2rem;
+    font-style: italic;
+    font-size: .8em;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid rgb(153, 207, 209);
+}
+
+a:visited{
+    color: inherit;
+}
+
+ul{
+    padding: 0;
+}
+
+.skills ul{
+    margin-bottom: 1em;
+}
+
+li{
+    border: 1px dotted rgb(24, 24, 24);
+    font-size: .8em;
+    display: inline;
+    padding: 2px;
+    margin: 2px;
+    line-height: 1.5rem;
+}
+
+.overview li {
+    display: block;
+    margin-bottom: .5em;
+    border: none;
+    font-size: 1em;
+}
+
+section{
+    margin-top: 2rem;
+}
+
+.job{
+    margin-bottom: 1em;
+}
+
+.job ul{
+    margin-left: 2rem;
+}
+
+.education-awards {
+    padding-bottom: 3em;
+}
+
+.education-awards p{
+    margin: 0 0 .5em 1em;
+    font-size: .8em;
+    font-style: italic;
+}
+
+.daterange{
+    font-size: .75em;
+}
+
+#portrait {
+    float:right;
+    width: 300px;
+    max-width: 95%;
+    margin: 1rem;
 }
